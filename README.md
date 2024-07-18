@@ -1,13 +1,13 @@
-# VI-IX-Programming-Exercises
+# Lottery Number Generator, Search Benchmarks, and Sorting Benchmarks
 
-Create programs using Java, Python, and C++ language for each of the following problems. Submit screenshot of the code and output.
+This project is developed for a Programming Logic and Design subject, that involves creating programs in Java, Python, and C++ to solve specific problems. The exercises focus on applying fundamental programming concepts such as arrays, loops, random number generation, search algorithms, and sorting algorithms.
 
+# Problems
 1. Lottery Number Generator
-Design a program that generates a 7-digit lottery number. The program should have an Integer array with 7 elements. Write a loop that steps through the array, randomly generating a number in the range of 0 through 9 for each element. (Use the random function) Then write another loop that displays the contents of the array.
+- Description: Design a program that generates a 7-digit lottery number using an integer array with 7 elements. The program uses a loop to fill the array with random numbers between 0 and 9. Another loop then displays the contents of the array.
 
 2. Search Benchmarks
-Design an application that has an array of at least 20 integers. It should call a module that uses the sequential search algorithm to locate one of the values. The module should keep a count of the number of comparisons it makes until it finds the value. Then the program should call another module that uses the binary search algorithm to locate the same value. It should also keep a count of the number of comparisons it makes. Display these values on the screen.
+- Description: Design an application with an array of at least 20 integers. The program calls a module that uses the sequential search algorithm to locate a specified value, keeping a count of the comparisons made. It then calls another module that uses the binary search algorithm to locate the same value, also counting comparisons. The program displays the number of comparisons for each search method.
 
-3. Sorting Benchmarks 
-Design an application that uses three identical arrays of at least 20 integers. 
-Create modules that perform the bubble sort, selection sort, and insertion sort algorithms on an Integer array, such that each module keeps a count of the number of swaps it makes. It should call each module on a different array, and display the number of swaps made by each algorithm.
+3. Sorting Benchmarks
+- Description: Design an application that uses three identical arrays of at least 20 integers. The program includes modules to perform bubble sort, selection sort, and insertion sort algorithms on an integer array, counting the number of swaps made by each algorithm. The program calls each module on a different array and displays the number of swaps made by each sorting method. 
